@@ -1,0 +1,25 @@
+.aboutUs_title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.aboutUs_Gallery {
+    flex: 0 0 50vw;
+    order: 2;
+}
+
+.aboutUs_content {
+    display: flex;
+    flex: 1;
+}
+
+.aboutUs_text {
+    flex: 0 0 50vw;
+    order: 1;
+}
+
+.aboutUs {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}

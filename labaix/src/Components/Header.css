@@ -60,8 +60,32 @@ a:hover {
     color: teal;
 }
 
+.navigation {
+    position: absolute;
+    right: 10%;
+    top: 8%;
+    color: white;
+}
+
+.navigation_item {
+    display: inline;
+    padding-left: 3em;
+}
+
+.navigation_item:hover {
+    color: teal;
+    transition: 0.3;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  transform: translateY(20vh);
+  align-items: center;
+}
+
 .header {
     background-color: #282c34;
-    min-height: 40vh;
+    height: 30vh;
     min-width: 100%;
 }
